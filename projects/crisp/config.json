@@ -1,0 +1,30 @@
+{
+    "transformations": {
+      "OrderID": {
+        "source_column": "Order Number",
+        "type": "int"
+      },
+      "OrderDate": {
+        "source_columns": ["Year", "Month", "Day"],
+        "type": "date"
+      },
+      "ProductId": {
+        "source_column": "Product Number",
+        "type": "string"
+      },
+      "ProductName": {
+        "source_column": "Product Name",
+        "type": "propercase"
+      },
+      "Quantity": {
+        "source_column": "Count",
+        "type": "float"
+      },
+      "Unit": {
+        "constant_value": "kg",
+        "type": "string"
+      }
+    }
+  }
+
+  
