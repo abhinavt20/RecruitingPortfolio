@@ -9,7 +9,8 @@ I am a Master's student in Data Science at the University of Michigan, specializ
 /resume: My updated resume highlighting my education, skills, and relevant work experience.
 /work_samples: Examples of my work, including reports and presentations from my internship experiences.
 
-# README.md: This file, providing an overview of my portfolio and the purpose of this repository.
+# README.md: 
+This file, providing an overview of my portfolio and the purpose of this repository.
 
 # Contact
 Feel free to reach out for collaboration or job opportunities! You can connect with me via LinkedIn (https://www.linkedin.com/in/abhinav-tadikonda) or email me at your-abhinavt@umich.edu
