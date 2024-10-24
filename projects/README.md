@@ -2,7 +2,7 @@
 
 This folder contains a collection of key projects I have worked on throughout my academic and professional journey. Each project showcases my skills in data science, machine learning, and natural language processing. Below is a brief description of some notable projects included in this folder:
 
-## Crisp-Data-Wrangling
+## 1) Crisp-Data-Wrangling
 
 ### Description: 
 This project is designed to help you clean up and transform CSV data based on specified configuration rules. It reads an input CSV file, applies the transformations defined in a `config.json` file, and produces a new CSV file as the output. Any issues encountered (like invalid dates) are logged in `transform_errors.log`, allowing for easy troubleshooting.
@@ -18,7 +18,7 @@ This project is designed to help you clean up and transform CSV data based on sp
 - Implemented error handling mechanisms to log issues encountered during transformation, facilitating easier debugging.
 - Planned future enhancements, including support for larger datasets through chunked processing and improved error handling strategies.
 
-## EECS 280 Project 1: Statistics
+## 2) EECS 280 Project 1: Statistics
 
 ### Description: 
 This project implements a program that computes descriptive statistics and performs two-sample analysis on a given dataset. The program reads a dataset, extracts specific columns, and computes essential statistics such as mean, median, standard deviation, and percentiles. It also performs a two-sample comparison to calculate a 95% confidence interval for the difference in means between two groups within the dataset.
@@ -35,7 +35,7 @@ This project implements a program that computes descriptive statistics and perfo
 - Designed unit tests for each statistical function to ensure correctness.
 - Implemented confidence interval estimation using bootstrap resampling.
 
-## EECS 280 Project 2: Computer Vision
+## 3) EECS 280 Project 2: Computer Vision
 
 ### Description: 
 This project implements a content-aware image resizing program using the seam carving algorithm. The program resizes images by intelligently removing "seams" – paths of least important pixels – while preserving key content. This project practices matrix manipulation, image processing, and abstract data types (ADT) in C++. The final tool takes in an image, resizes it based on user input, and outputs the resized version. The focus is on optimizing the seam carving algorithm to perform efficiently while maintaining image quality.
