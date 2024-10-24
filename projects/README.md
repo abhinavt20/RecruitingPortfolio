@@ -67,3 +67,21 @@ This project implements a simulation of the card game Euchre using object-orient
 - Developed AI players with a simple strategy for making trump, leading, and playing tricks.
 - Implemented core ADTs for cards, deck (Pack), and player actions, emphasizing object-oriented design.
 - Created comprehensive unit tests to validate the correctness of the game's components.
+
+
+## 5) EECS 280 Project 4: Web
+
+### Description:
+This project implements a web server for an office hours queue system. The primary goal is to create a doubly-linked list and support a web API for managing the queue. The project introduces concepts such as Container ADTs, Dynamic Memory, Linked Lists, and Iterators in C++. While the main focus is on the linked list, there is an optional component that allows students to implement the web API.
+
+### Technologies Used:
+- **C++ (Templates):** For creating a doubly-linked list and managing memory with new/delete.
+- **Unit Testing Framework:** For verifying the functionality of the list with edge cases.
+- **JSON Parsing Library (json.hpp):** Used for serializing and deserializing data in the web API (optional).
+- **Python (server.py):** Provides a Python script to run the server and handle web requests.
+
+### Key Contributions:
+- Implemented a fully functional doubly-linked list with iterators.
+- Developed unit tests to validate the list's functionality and memory management.
+- Optionally designed a REST API to interact with the office hours queue using HTTP methods like GET, POST, and DELETE.
+
