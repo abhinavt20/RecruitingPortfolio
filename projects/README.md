@@ -34,3 +34,22 @@ This project implements a program that computes descriptive statistics and perfo
 - Implemented a suite of statistical functions (mean, median, standard deviation, etc.) in C++.
 - Designed unit tests for each statistical function to ensure correctness.
 - Implemented confidence interval estimation using bootstrap resampling.
+
+## EECS 280 Project 2: Computer Vision
+
+### Description: 
+This project implements a content-aware image resizing program using the seam carving algorithm. The program resizes images by intelligently removing "seams" – paths of least important pixels – while preserving key content. This project practices matrix manipulation, image processing, and abstract data types (ADT) in C++. The final tool takes in an image, resizes it based on user input, and outputs the resized version. The focus is on optimizing the seam carving algorithm to perform efficiently while maintaining image quality.
+
+### Technologies Used: 
+- **C++:** Used for the implementation of the seam carving algorithm, matrix and image modules.
+- **Makefile:** Automates the build process, compiling and running unit tests.
+- **Dynamic Programming:** Seam carving utilizes dynamic programming to find the optimal seam for removal.
+- **PPM File Format:** Used for input/output of images.
+
+### Key Contributions:
+- Developed an image resizing tool that uses content-aware seam carving.
+- Implemented matrix and image handling functionalities in C++.
+- Designed unit tests for matrix and image modules to ensure correctness.
+- Implemented the seam carving algorithm for intelligent resizing of images while minimizing visual distortion.
+
+
