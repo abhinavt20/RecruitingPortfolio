@@ -72,12 +72,12 @@ This project implements a simulation of the card game Euchre using object-orient
 ## 5) EECS 280 Project 4: Web
 
 ### Description:
-This project implements a web server for an office hours queue system. The primary goal is to create a doubly-linked list and support a web API for managing the queue. The project introduces concepts such as Container ADTs, Dynamic Memory, Linked Lists, and Iterators in C++. While the main focus is on the linked list, there is an optional component that allows students to implement the web API.
+This project implements a web server for an office hours queue system. The primary goal is to create a doubly-linked list and support a web API for managing the queue. The project introduces concepts such as Container ADTs, Dynamic Memory, Linked Lists, and Iterators in C++. 
 
 ### Technologies Used:
 - **C++ (Templates):** For creating a doubly-linked list and managing memory with new/delete.
 - **Unit Testing Framework:** For verifying the functionality of the list with edge cases.
-- **JSON Parsing Library (json.hpp):** Used for serializing and deserializing data in the web API (optional).
+- **JSON Parsing Library (json.hpp):** Used for serializing and deserializing data in the web API.
 - **Python (server.py):** Provides a Python script to run the server and handle web requests.
 
 ### Key Contributions:
@@ -88,7 +88,7 @@ This project implements a web server for an office hours queue system. The prima
 ## 6) EECS 280 Project 5: Machine Learning
 
 ### Description:
-This project focuses on building a machine learning classifier that can automatically identify the subject of EECS 280 Piazza posts using natural language processing (NLP) and a "bag of words" model. The project reinforces key concepts such as Binary Search Trees (BST), Templates, Comparators, and Recursive Algorithms. You will also work with dynamic memory management and Map data structures while implementing a Multi-Variate Bernoulli Naive Bayes Classifier.
+This project focuses on building a machine learning classifier that can automatically identify the subject of EECS 280 Piazza posts using natural language processing (NLP) and a "bag of words" model. The project reinforces key concepts such as Binary Search Trees (BST), Templates, Comparators, and Recursive Algorithms. This project also utilizes dynamic memory management and Map data structures while implementing a Multi-Variate Bernoulli Naive Bayes Classifier.
 
 ### Technologies Used:
 - **C++ (Templates):** Used for creating a Binary Search Tree and Map ADTs, which serve as the core data structures.
