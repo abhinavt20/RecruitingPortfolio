@@ -85,3 +85,20 @@ This project implements a web server for an office hours queue system. The prima
 - Developed unit tests to validate the list's functionality and memory management.
 - Optionally designed a REST API to interact with the office hours queue using HTTP methods like GET, POST, and DELETE.
 
+## 6) EECS 280 Project 5: Machine Learning
+
+### Description:
+This project focuses on building a machine learning classifier that can automatically identify the subject of EECS 280 Piazza posts using natural language processing (NLP) and a "bag of words" model. The project reinforces key concepts such as Binary Search Trees (BST), Templates, Comparators, and Recursive Algorithms. You will also work with dynamic memory management and Map data structures while implementing a Multi-Variate Bernoulli Naive Bayes Classifier.
+
+### Technologies Used:
+- **C++ (Templates):** Used for creating a Binary Search Tree and Map ADTs, which serve as the core data structures.
+- **Unit Testing Framework:** To verify the correctness of BST and Map implementations.
+- **csvstream.hpp:** A CSV parsing library used for reading training and testing data.
+- **Supervised Machine Learning:** Implementation of a probabilistic model for classification using labeled Piazza posts.
+
+### Key Contributions:
+- Developed a recursive Binary Search Tree supporting efficient data storage and retrieval.
+- Implemented a custom Map ADT using a BST, handling key-value pairs.
+- Built a Naive Bayes Classifier to categorize Piazza posts into topics based on word frequency.
+- Developed unit tests for Binary Search Tree and Map to ensure correct functionality.
+- Implemented command-line interface for training and testing the classifier with CSV data.
