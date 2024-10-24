@@ -1,5 +1,7 @@
 # README
 
+Link to project: https://eecs280staff.github.io/p1-stats/
+
 ## Overview
 This project implements a program to compute descriptive statistics and perform two-sample analysis on a given dataset. The program reads an input file (CSV or TSV), extracts specific columns based on user input, and computes various statistics such as mean, median, standard deviation, and percentiles. Additionally, it can compare two groups in the dataset and provide a 95% confidence interval for the difference in means using bootstrap resampling.
 
