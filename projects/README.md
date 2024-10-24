@@ -52,4 +52,18 @@ This project implements a content-aware image resizing program using the seam ca
 - Designed unit tests for matrix and image modules to ensure correctness.
 - Implemented the seam carving algorithm for intelligent resizing of images while minimizing visual distortion.
 
+## 4) EECS 280 Project 3: Euchre
+### Description:
+This project implements a simulation of the card game Euchre using object-oriented programming in C++. The game features AI players and can also accommodate a human player via the command line interface. The project focuses on practicing Abstract Data Types (ADTs), Inheritance, Polymorphism, and Operator Overloading, offering a deeper understanding of object-oriented concepts and C++ programming techniques. The game includes both shuffling and non-shuffling modes, and uses a strategy-based AI to play a full game of Euchre.
 
+### Technologies Used: 
+- **C++:** For implementing game logic, AI strategy, and card deck operations.
+- **Makefile:** To compile and run the game and its unit tests.
+- **Object-Oriented Programming:** Using inheritance and polymorphism to implement the Player class.
+- **Unit Test Framework:** For testing individual game components like cards, decks, and players.
+
+### Key Contributions:
+- Designed and implemented a complete game of Euchre, with support for both human and AI players.
+- Developed AI players with a simple strategy for making trump, leading, and playing tricks.
+- Implemented core ADTs for cards, deck (Pack), and player actions, emphasizing object-oriented design.
+- Created comprehensive unit tests to validate the correctness of the game's components.
