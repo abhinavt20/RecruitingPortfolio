@@ -181,7 +181,7 @@ This project implements a set of graph algorithms for a game-like scenario inspi
 - Utilizes efficient data structures and algorithms for spatial graphs.
 
 
-## 9) EECS 484 Project 1: Fakebook Database
+## 10) EECS 484 Project 1: Fakebook Database
 
 ## Description
 This project focuses on creating a database schema and loading data for the social media platform "Fakebook." The tasks include designing an ER Diagram, writing SQL scripts for table creation, data loading, and view creation. The project also involves enforcing constraints through SQL triggers and validating the schema against a public dataset.
@@ -199,7 +199,7 @@ This project focuses on creating a database schema and loading data for the soci
 - Implemented triggers to enforce complex constraints, such as managing bidirectional friendships in Fakebook.
 
 
-## 9) EECS 484 Project 2: Fakebook JDBC
+## 11) EECS 484 Project 2: Fakebook JDBC
 
 ## Project Overview
 In Project 2, you will develop a Java application that interfaces with a relational database, executing SQL queries to manage and process data for the Fakebook platform. 
@@ -218,7 +218,7 @@ The project provides experience in both database query structuring and applicati
 - **Makefile**: Used for automating compilation, running, and cleaning of the project.
 
 
-# EECS 484 Project 3: MongoDB - Fakebook Data Management
+# 12) EECS 484 Project 3: MongoDB - Fakebook Data Management
 
 ## Description
 This project involves data extraction and manipulation for the Fakebook platform, a fictional social network. It is divided into two parts: exporting Oracle database data to JSON and loading it into MongoDB for query operations. The purpose of this project is to practice data export/import processes and use MongoDB to execute various data retrieval and management queries.
@@ -235,7 +235,7 @@ This project involves data extraction and manipulation for the Fakebook platform
 - **MongoDB Query Implementation**: Created complex queries to handle data relationships, counting, and matching requirements.
 
 
-# EECS 484 Project 4: Grace Hash Join
+# 13) EECS 484 Project 4: Grace Hash Join
 
 ## Description
 Project 4 requires implementing a Grace Hash Join (GHJ) database algorithm in C++. Unlike previous projects that used databases directly, this project focuses on developing a component of a database. GHJ enables efficient joining of large data tables by partitioning records into smaller subsets before probing for matching keys, allowing for optimal use of limited memory.
