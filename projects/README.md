@@ -264,4 +264,27 @@ Project 4 requires implementing a Grace Hash Join (GHJ) database algorithm in C+
 - Implemented `partition` and `probe` functions in `Join.cpp` to achieve the GHJ algorithm.
 - Utilized provided emulated disk and memory classes to manage data flow and record processing.
 - Integrated hashing and page management for efficient data partitioning and probing.
-These files provide a structured overview and README for your project, aligning with previous project formats. Let me know if you'd like any additional adjustments!
+
+
+# 14) Kaggle Machine Learning Water Depth Challenge 
+https://github.com/abhinavt20/RecruitingPortfolio/tree/12d5fd1674521b708e702d1a09cb577cc6e73c52/projects/ML_WaterDepth_Kaggle
+
+## Project Overview
+This Kaggle competition project involves predicting water temperature at a specific depth in Trout Lake using past sensor data from April 2012 to April 2019. The project applies time-series analysis and machine learning to forecast hourly temperatures at a depth of 10.5m, requiring an understanding of seasonal temperature trends, data preprocessing, and model evaluation based on the Mean Squared Error metric.
+
+## Technologies Used
+- **Python**: Core language for all scripts and model implementations
+- **Pandas & NumPy**: Data manipulation and numerical analysis
+- **Scikit-Learn**: Machine learning library for training and evaluating models
+- **XGBoost**: Gradient boosting algorithm for optimized prediction accuracy 
+- **Matplotlib & Seaborn**: Visualization libraries for EDA and result visualization
+- **Nested Cross Validation**: Parameter tuning and validation evaluation
+
+
+## Key Contributions
+1. **Data Preprocessing**:
+   - Developed functions to clean and organize multi-year time-series data, extracting and engineering date-based features.
+2. **Model Training**:
+   - Built and trained various regression models to forecast temperatures, including feature engineering to improve depth-based predictions.
+3. **Evaluation and Benchmarking**:
+   - Developed scripts to evaluate model performance, using Mean Squared Error for comparison against benchmark values.
