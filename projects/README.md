@@ -2,6 +2,7 @@
 
 This folder contains a collection of key projects I have worked on throughout my academic and professional journey. Each project showcases my skills in data science, machine learning, and natural language processing. Below is a brief description of some notable projects included in this folder:
 
+
 ## 1) Data-Wrangling
 
 ### Description: 
@@ -17,6 +18,7 @@ This project is designed to help you clean up and transform CSV data based on sp
 - Achieved an efficient processing pipeline that can handle standard CSV data inputs, producing transformed output while logging errors for further review.
 - Implemented error handling mechanisms to log issues encountered during transformation, facilitating easier debugging.
 - Planned future enhancements, including support for larger datasets through chunked processing and improved error handling strategies.
+
 
 ## 2) EECS 280 Project 1: Statistics
 
@@ -35,6 +37,7 @@ This project implements a program that computes descriptive statistics and perfo
 - Designed unit tests for each statistical function to ensure correctness.
 - Implemented confidence interval estimation using bootstrap resampling.
 
+
 ## 3) EECS 280 Project 2: Computer Vision
 
 ### Description: 
@@ -51,6 +54,7 @@ This project implements a content-aware image resizing program using the seam ca
 - Implemented matrix and image handling functionalities in C++.
 - Designed unit tests for matrix and image modules to ensure correctness.
 - Implemented the seam carving algorithm for intelligent resizing of images while minimizing visual distortion.
+
 
 ## 4) EECS 280 Project 3: Euchre
 ### Description:
@@ -84,6 +88,7 @@ This project implements a web server for an office hours queue system. The prima
 - Implemented a fully functional doubly-linked list with iterators.
 - Developed unit tests to validate the list's functionality and memory management.
 - Optionally designed a REST API to interact with the office hours queue using HTTP methods like GET, POST, and DELETE.
+
 
 ## 6) EECS 280 Project 5: Machine Learning
 
@@ -119,4 +124,21 @@ This project is designed to build a path-finding solution for a maze-like castle
 - Implemented stack and queue-based routing schemes to explore two search methodologies.
 - Designed warp pipe functionality for multi-room transitions, ensuring Marco’s path is accurately tracked.
 - Integrated error-handling for invalid inputs and comprehensive testing through customized test cases.
+
+  
+## 8) EECS 281 Project 2: The Walking Deadline & Priority Queues
+
+### Description:
+This two-part project explores simulation and data structures. Part A, The Walking Deadline, simulates a player defending against zombies using priority queues. Part B involves implementing and testing multiple priority queue structures, offering insight into their efficiency and real-world applications.
+
+### Technologies Used:
+- **C++ STL**: Provides base structures like `std::priority_queue`, vectors, and comparators.
+- **Mersenne Twister Random Generator**: Custom random generator for consistent zombie attributes in Part A.
+- **Priority Queues**: Implemented various priority queues, including Binary Heap, Sorted Array, and Pairing Heap, for managing tasks efficiently.
+
+### Key Contributions:
+- Developed a zombie simulation game using priority-based actions to prioritize threats.
+- Implemented custom priority queues to compare different queue structures.
+- Handled complex edge cases with command-line options for verbose output, median tracking, and game statistics.
+
 
