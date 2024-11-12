@@ -267,7 +267,7 @@ Project 4 requires implementing a Grace Hash Join (GHJ) database algorithm in C+
 
 
 # 14) Kaggle Machine Learning Water Depth Challenge 
-https://github.com/abhinavt20/RecruitingPortfolio/tree/12d5fd1674521b708e702d1a09cb577cc6e73c52/projects/ML_WaterDepth_Kaggle
+https://github.com/abhinavt20/RecruitingPortfolio/tree/ef0de02af666a84bb54bc6918de9aa86154d4091/projects/ML_WaterDepth_Kaggle
 
 ## Project Overview
 This Kaggle competition project involves predicting water temperature at a specific depth in Trout Lake using past sensor data from April 2012 to April 2019. The project applies time-series analysis and machine learning to forecast hourly temperatures at a depth of 10.5m, requiring an understanding of seasonal temperature trends, data preprocessing, and model evaluation based on the Mean Squared Error metric.
