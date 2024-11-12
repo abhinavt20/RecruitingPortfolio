@@ -14,8 +14,8 @@ The SI 670 Fall 2024 Kaggle Competition project is centered around predicting th
   - `matplotlib` and `seaborn` for data visualization
   - `scikit-learn` for machine learning models and evaluation
   - `xgboost` for advanced model tuning
-  - 'GridSearchCV' for optimal parameter tuning
-  - 'cross_val_score' for nested cross validation
+  - `GridSearchCV` for optimal parameter tuning
+  - `cross_val_score` for nested cross validation
 
 ## Example Usage
 After setting up and running the code, predictions for depth 10.5m can be generated for each hour between April 20, 2018, and April 19, 2019. The results will be saved in a `predictions.csv` file in the following format:
