@@ -143,7 +143,7 @@ This two-part project explores simulation and data structures. Part A, The Walki
 
 
 
-## 8) Project 3: SillyQL - Project Overview
+## 8) EECS 281 Project 3: SillyQL - Project Overview
 
 ### Description
 SillyQL is a simplified SQL-like database that allows for basic data manipulation and querying. The project is structured
@@ -160,4 +160,23 @@ to simulate a relational database where tables can be created, modified, and que
 4. **Indexing**: Built hash and bst-based indexing for faster data retrieval on specific columns.
 
 
+## 9) EECS 281 Project 4: Among Us
+
+## Description
+This project implements a set of graph algorithms for a game-like scenario inspired by "Among Us." It focuses on solving graph traversal problems in a spatial setup using Minimum Spanning Tree (MST) and Traveling Salesperson Problem (TSP) techniques. The project comprises three parts:
+1. **MST Mode**: Calculates the Minimum Spanning Tree (MST) for connecting all locations at minimal distance.
+2. **FASTTSP Mode**: Approximates a solution to the Traveling Salesperson Problem.
+3. **OPTTSP Mode**: Finds an optimal TSP solution using branch and bound techniques.
+
+## Technologies Used
+- **C++ (Object-Oriented Design)**: Core language for implementing graph algorithms and game logic.
+- **Graph Theory Algorithms**: Used MST and TSP solutions, with algorithms for Prim’s, Kruskal’s, branch and bound, and various heuristic techniques.
+- **STL Containers**: Employed standard containers such as vectors, priority queues, and sets for efficient data management.
+- **Mathematical Computations**: Utilized Euclidean distance calculations and efficient mathematical operations for spatial analysis.
+
+## Key Features
+- Implements MST calculation with algorithms like Prim's or Kruskal's.
+- Approximates a TSP solution with heuristics to achieve near-optimal results.
+- Provides a branch-and-bound approach to determine an optimal TSP path.
+- Utilizes efficient data structures and algorithms for spatial graphs.
 
