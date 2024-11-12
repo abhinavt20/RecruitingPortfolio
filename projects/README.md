@@ -199,3 +199,22 @@ This project focuses on creating a database schema and loading data for the soci
 - Implemented triggers to enforce complex constraints, such as managing bidirectional friendships in Fakebook.
 
 
+## 9) EECS 484 Project 2: Fakebook JDBC
+
+## Project Overview
+In Project 2, you will develop a Java application that interfaces with a relational database, executing SQL queries to manage and process data for the Fakebook platform. 
+The project provides experience in both database query structuring and application-level data processing.
+
+## Project Goals
+1. Implement SQL queries in Java using JDBC.
+2. Manipulate query results to populate custom data structures.
+3. Practice writing efficient and optimized SQL queries that run within set time constraints.
+4. Ensure proper resource management and exception handling within JDBC operations.
+
+## Technologies Used
+- **Java**: Main programming language used for application logic.
+- **JDBC (Java Database Connectivity)**: Manages SQL connections and query execution.
+- **Oracle SQL**: Database query language for relational data access.
+- **Makefile**: Used for automating compilation, running, and cleaning of the project.
+
+
