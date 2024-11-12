@@ -44,11 +44,7 @@ public class GetData {
         // This is the data structure to store all users' information
         JSONArray users_info = new JSONArray();
         
-        try (Statement stmt = oracleConnection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY)) {
-            // Your implementation goes here....
-            
-            
-
+        try (Statement stmt = oracleConnection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY)) {            
             ResultSet rst = stmt.executeQuery(
                 "SELECT DISTINCT U.user_id, U.first_name, U.last_name, U.gender, U.year_of_birth, U.month_of_birth, U.day_of_birth, CC.city_name, CC.state_name, CC.country_name, HC.city_name, HC.state_name, HC.country_name " +
                 "FROM " + userTableName + " U " +
@@ -75,8 +71,6 @@ public class GetData {
                     while (rst2.next()) {
                         friends.put(rst2.getInt(1));
                     }
-
-
                     
                     rst2.close();
                     stmt2.close();
@@ -109,14 +103,6 @@ public class GetData {
                 user.put("hometown", hometownLocation);
 
                 users_info.put(user);
-
-
-                /*String u = "{user_id: " + rst.getInt(1)+ ", first_name: " + rst.getString(2) + ", last_name: "
-                + rst.getString(3) + ", gender: " + rst.getString(4) + ", YOB: " + rst.getInt(5) + ", MOB: " + rst.getInt(6)
-                + ", DOB: " + rst.getInt(7) + ", current: {city: " + rst.getString(8) + ", state: " + rst.getString(9) + ", country: " + rst.getString(10)
-                + "}, hometown: {city: " + rst.getString(11) + ", state: " + rst.getString(12) + ", country: " + rst.getString(13)"}, " +
-                "friends: {" + friends + "}}"*/
-
 
             }
             
