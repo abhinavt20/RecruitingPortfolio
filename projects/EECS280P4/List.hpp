@@ -3,8 +3,6 @@
 /* List.h
  *
  * doubly-linked, double-ended list with Iterator interface
- * Project UID c1f28c309e55405daf00c565d57ff9ad
- * EECS 280 Project 4
  */
 
 #include <iostream>
