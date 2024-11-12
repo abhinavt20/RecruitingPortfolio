@@ -280,7 +280,6 @@ This Kaggle competition project involves predicting water temperature at a speci
 - **Matplotlib & Seaborn**: Visualization libraries for EDA and result visualization
 - **Nested Cross Validation**: Parameter tuning and validation evaluation
 
-
 ## Key Contributions
 1. **Data Preprocessing**:
    - Developed functions to clean and organize multi-year time-series data, extracting and engineering date-based features.
