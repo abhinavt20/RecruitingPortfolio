@@ -1,6 +1,8 @@
 
 # Project 3: MongoDB - Fakebook Data Management
 
+Link to project: [https://eecs484db.github.io/f24/p3-mongodb#mainjava](https://eecs484db.github.io/f24/p3-mongodb#mainjava)
+
 ## Project Overview
 In Project 3, we explore the capabilities of MongoDB, a NoSQL database, by managing data for the fictional social media platform Fakebook. The project has two parts: exporting data from an Oracle database to JSON format, and importing this data into MongoDB for further querying and analysis.
 
