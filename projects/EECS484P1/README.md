@@ -1,5 +1,5 @@
 
-# Project 1: Fakebook Database
+# EECS 484 Project 1: Fakebook Database
 
 Link to project: [https://eecs484db.github.io/f24/p1-fakebook-db](https://eecs484db.github.io/f24/p1-fakebook-db)
 
