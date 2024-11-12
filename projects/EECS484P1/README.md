@@ -1,6 +1,8 @@
 
 # Project 1: Fakebook Database
 
+Link to project: [https://eecs484db.github.io/f24/p1-fakebook-db](https://eecs484db.github.io/f24/p1-fakebook-db)
+
 ## Project Overview
 In this project, we design a relational database for a fictional social media platform called "Fakebook." The project involves creating an ER Diagram, SQL scripts for setting up and managing the database schema, loading data from a public dataset, and creating external views to display the data.
 
