@@ -234,3 +234,19 @@ This project involves data extraction and manipulation for the Fakebook platform
 - **Data Import**: Established MongoDB collections and imported JSON data.
 - **MongoDB Query Implementation**: Created complex queries to handle data relationships, counting, and matching requirements.
 
+
+# EECS 484 Project 4: Grace Hash Join
+
+## Description
+Project 4 requires implementing a Grace Hash Join (GHJ) database algorithm in C++. Unlike previous projects that used databases directly, this project focuses on developing a component of a database. GHJ enables efficient joining of large data tables by partitioning records into smaller subsets before probing for matching keys, allowing for optimal use of limited memory.
+
+## Technologies Used
+- **C++**: Core programming language for implementing the GHJ algorithm.
+- **Emulated Disk and Memory Structures**: Used to simulate database-like storage and retrieval.
+- **Makefile**: For compiling and managing the project build process.
+
+## Key Contributions
+- Implemented `partition` and `probe` functions in `Join.cpp` to achieve the GHJ algorithm.
+- Utilized provided emulated disk and memory classes to manage data flow and record processing.
+- Integrated hashing and page management for efficient data partitioning and probing.
+These files provide a structured overview and README for your project, aligning with previous project formats. Let me know if you'd like any additional adjustments!
