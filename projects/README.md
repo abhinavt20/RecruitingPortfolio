@@ -218,3 +218,19 @@ The project provides experience in both database query structuring and applicati
 - **Makefile**: Used for automating compilation, running, and cleaning of the project.
 
 
+# EECS 484 Project 3: MongoDB - Fakebook Data Management
+
+## Description
+This project involves data extraction and manipulation for the Fakebook platform, a fictional social network. It is divided into two parts: exporting Oracle database data to JSON and loading it into MongoDB for query operations. The purpose of this project is to practice data export/import processes and use MongoDB to execute various data retrieval and management queries.
+
+## Technologies Used
+- **Oracle SQL**: Used to extract and format data for JSON export.
+- **Java**: Manages database connections, JSON generation, and file output.
+- **MongoDB**: A NoSQL database used for storing JSON data in collections and running queries.
+- **JSON**: Data format for export and import between Oracle and MongoDB.
+
+## Key Contributions
+- **Data Export**: Developed logic to extract structured data from Oracle and format it as JSON.
+- **Data Import**: Established MongoDB collections and imported JSON data.
+- **MongoDB Query Implementation**: Created complex queries to handle data relationships, counting, and matching requirements.
+
