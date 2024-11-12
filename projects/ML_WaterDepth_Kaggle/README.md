@@ -22,7 +22,6 @@ The SI 670 Fall 2024 Kaggle Competition project is centered around predicting th
 - **Trout_testing_features.csv**: Contains the lake temperature data during the period of Apr 20th, 2018 - Apr 19th, 2019 at all depths except 10.5m.
 - **KaggleWaterDepth.ipynb**: Implements the ML model to train and predict the water depth at 10.5 meters.
 
-
 ## Example Usage
 After setting up and running the code, predictions for depth 10.5m can be generated for each hour between April 20, 2018, and April 19, 2019. The results will be saved in a `predictions.csv` file in the following format:
 ```
