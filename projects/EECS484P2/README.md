@@ -15,7 +15,7 @@ Link to project:[https://eecs484db.github.io/f24/p2-fakebook-jdbc](https://eecs4
 - **FakebookOracleUtilities.java**: Utility class for handling array lists and output formatting.
 - **FakebookOracleMain.java**: Main application driver file to run and test queries.
 
-  ## Key Queries Implemented
+## Key Queries Implemented
 - Query 0: **Birth Months** - Provided as an example; retrieves birth month data for users.
 - Query 1: **First Names** - Identifies longest, shortest, and most common first names.
 - Query 2: **Lonely Users** - Lists users with no friends.
