@@ -142,3 +142,22 @@ This two-part project explores simulation and data structures. Part A, The Walki
 - Handled complex edge cases with command-line options for verbose output, median tracking, and game statistics.
 
 
+
+## 8) Project 3: SillyQL - Project Overview
+
+### Description
+SillyQL is a simplified SQL-like database that allows for basic data manipulation and querying. The project is structured
+to simulate a relational database where tables can be created, modified, and queried interactively. This project demonstrates the ability to simulate SQL database behavior using custom and STL data structures in C++.
+
+### Technologies Used
+- **C++** for efficient data structure management and logic.
+- **STL Containers** like `std::map`, `std::unordered_map`, and `std::vector` for handling database components.
+
+### Key Contributions
+1. **Database Shell**: Created a command-line shell to interact with tables.
+2. **Data Management**: Implemented table creation, insertion, deletion, and conditional selection.
+3. **JOIN Operations**: Enabled data joining across tables for complex queries.
+4. **Indexing**: Built hash and bst-based indexing for faster data retrieval on specific columns.
+
+
+
