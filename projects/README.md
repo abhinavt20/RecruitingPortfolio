@@ -3,7 +3,8 @@
 This folder contains a collection of key projects I have worked on throughout my academic and professional journey. Each project showcases my skills in data science, machine learning, and natural language processing. Below is a brief description of some notable projects included in this folder:
 
 
-## 1) Crisp Data-Wrangling
+## 1) Crisp Data-Wrangling 
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/crisp
 
 ### Description: 
 This project is designed to help you clean up and transform CSV data based on specified configuration rules. It reads an input CSV file, applies the transformations defined in a `config.json` file, and produces a new CSV file as the output. Any issues encountered (like invalid dates) are logged in `transform_errors.log`, allowing for easy troubleshooting.
@@ -21,6 +22,7 @@ This project is designed to help you clean up and transform CSV data based on sp
 
 
 ## 2) EECS 280 Project 1: Statistics
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS280P1
 
 ### Description: 
 This project implements a program that computes descriptive statistics and performs two-sample analysis on a given dataset. The program reads a dataset, extracts specific columns, and computes essential statistics such as mean, median, standard deviation, and percentiles. It also performs a two-sample comparison to calculate a 95% confidence interval for the difference in means between two groups within the dataset.
@@ -39,6 +41,7 @@ This project implements a program that computes descriptive statistics and perfo
 
 
 ## 3) EECS 280 Project 2: Computer Vision
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS280P2
 
 ### Description: 
 This project implements a content-aware image resizing program using the seam carving algorithm. The program resizes images by intelligently removing "seams" – paths of least important pixels – while preserving key content. This project practices matrix manipulation, image processing, and abstract data types (ADT) in C++. The final tool takes in an image, resizes it based on user input, and outputs the resized version. The focus is on optimizing the seam carving algorithm to perform efficiently while maintaining image quality.
@@ -57,6 +60,8 @@ This project implements a content-aware image resizing program using the seam ca
 
 
 ## 4) EECS 280 Project 3: Euchre
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS280P3
+
 ### Description:
 This project implements a simulation of the card game Euchre using object-oriented programming in C++. The game features AI players and can also accommodate a human player via the command line interface. The project focuses on practicing Abstract Data Types (ADTs), Inheritance, Polymorphism, and Operator Overloading, offering a deeper understanding of object-oriented concepts and C++ programming techniques. The game includes both shuffling and non-shuffling modes, and uses a strategy-based AI to play a full game of Euchre.
 
@@ -74,6 +79,7 @@ This project implements a simulation of the card game Euchre using object-orient
 
 
 ## 5) EECS 280 Project 4: Web
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS280P4
 
 ### Description:
 This project implements a web server for an office hours queue system. The primary goal is to create a doubly-linked list and support a web API for managing the queue. The project introduces concepts such as Container ADTs, Dynamic Memory, Linked Lists, and Iterators in C++. 
@@ -91,6 +97,7 @@ This project implements a web server for an office hours queue system. The prima
 
 
 ## 6) EECS 280 Project 5: Machine Learning
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS280P5
 
 ### Description:
 This project focuses on building a machine learning classifier that can automatically identify the subject of EECS 280 Piazza posts using natural language processing (NLP) and a "bag of words" model. The project reinforces key concepts such as Binary Search Trees (BST), Templates, Comparators, and Recursive Algorithms. This project also utilizes dynamic memory management and Map data structures while implementing a Multi-Variate Bernoulli Naive Bayes Classifier.
@@ -110,6 +117,7 @@ This project focuses on building a machine learning classifier that can automati
 
   
 ## 7) EECS 281 Project 1: Rescue the Countess
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS281P1
 
 ### Description:
 This project is designed to build a path-finding solution for a maze-like castle layout. The objective is to help Marco rescue Countess Cherry using efficient algorithms in C++. Key concepts include breadth-first and depth-first search, managing multi-room navigation, and ensuring program efficiency with restricted memory usage.
@@ -127,6 +135,7 @@ This project is designed to build a path-finding solution for a maze-like castle
 
   
 ## 8) EECS 281 Project 2: The Walking Deadline & Priority Queues
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS281P2
 
 ### Description:
 This two-part project explores simulation and data structures. Part A, The Walking Deadline, simulates a player defending against zombies using priority queues. Part B involves implementing and testing multiple priority queue structures, offering insight into their efficiency and real-world applications.
@@ -144,6 +153,7 @@ This two-part project explores simulation and data structures. Part A, The Walki
 
 
 ## 8) EECS 281 Project 3: SillyQL 
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS281P3
 
 ### Description
 SillyQL is a simplified SQL-like database that allows for basic data manipulation and querying. The project is structured
@@ -161,6 +171,7 @@ to simulate a relational database where tables can be created, modified, and que
 
 
 ## 9) EECS 281 Project 4: Among Us
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS281P4
 
 ## Description
 This project implements a set of graph algorithms for a game-like scenario inspired by "Among Us." It focuses on solving graph traversal problems in a spatial setup using Minimum Spanning Tree (MST) and Traveling Salesperson Problem (TSP) techniques. The project comprises three parts:
@@ -182,6 +193,7 @@ This project implements a set of graph algorithms for a game-like scenario inspi
 
 
 ## 10) EECS 484 Project 1: Fakebook Database
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS484P1
 
 ## Description
 This project focuses on creating a database schema and loading data for the social media platform "Fakebook." The tasks include designing an ER Diagram, writing SQL scripts for table creation, data loading, and view creation. The project also involves enforcing constraints through SQL triggers and validating the schema against a public dataset.
@@ -200,6 +212,7 @@ This project focuses on creating a database schema and loading data for the soci
 
 
 ## 11) EECS 484 Project 2: Fakebook JDBC
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS484P2
 
 ## Project Overview
 In Project 2, you will develop a Java application that interfaces with a relational database, executing SQL queries to manage and process data for the Fakebook platform. 
@@ -219,6 +232,7 @@ The project provides experience in both database query structuring and applicati
 
 
 # 12) EECS 484 Project 3: MongoDB - Fakebook Data Management
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS484P3
 
 ## Description
 This project involves data extraction and manipulation for the Fakebook platform, a fictional social network. It is divided into two parts: exporting Oracle database data to JSON and loading it into MongoDB for query operations. The purpose of this project is to practice data export/import processes and use MongoDB to execute various data retrieval and management queries.
@@ -236,6 +250,7 @@ This project involves data extraction and manipulation for the Fakebook platform
 
 
 # 13) EECS 484 Project 4: Grace Hash Join
+https://github.com/abhinavt20/RecruitingPortfolio/tree/3555bd9d1955196eb08e35c28805efc78ee9839f/projects/EECS484P4
 
 ## Description
 Project 4 requires implementing a Grace Hash Join (GHJ) database algorithm in C++. Unlike previous projects that used databases directly, this project focuses on developing a component of a database. GHJ enables efficient joining of large data tables by partitioning records into smaller subsets before probing for matching keys, allowing for optimal use of limited memory.
