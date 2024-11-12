@@ -180,3 +180,22 @@ This project implements a set of graph algorithms for a game-like scenario inspi
 - Provides a branch-and-bound approach to determine an optimal TSP path.
 - Utilizes efficient data structures and algorithms for spatial graphs.
 
+
+## 9) EECS 484 Project 1: Fakebook Database
+
+## Description
+This project focuses on creating a database schema and loading data for the social media platform "Fakebook." The tasks include designing an ER Diagram, writing SQL scripts for table creation, data loading, and view creation. The project also involves enforcing constraints through SQL triggers and validating the schema against a public dataset.
+
+## Technologies Used
+- **SQL**: For writing DDL and DML statements to manage the database.
+- **SQL*Plus**: Oracle's command-line tool for executing SQL scripts.
+- **Oracle Database**: The relational database system used to store and query Fakebook data.
+- **Database Design Concepts**: Including normalization, primary and foreign key constraints, and relationships between entities.
+
+## Key Contributions
+- Developed an ER Diagram representing Users, Messages, Photos, Albums, and Events.
+- Created SQL scripts for setting up tables with primary keys, foreign keys, and custom constraints.
+- Loaded data from the public dataset and created views that replicate the schema of the public tables.
+- Implemented triggers to enforce complex constraints, such as managing bidirectional friendships in Fakebook.
+
+
