@@ -102,3 +102,21 @@ This project focuses on building a machine learning classifier that can automati
 - Built a Naive Bayes Classifier to categorize Piazza posts into topics based on word frequency.
 - Developed unit tests for Binary Search Tree and Map to ensure correct functionality.
 - Implemented command-line interface for training and testing the classifier with CSV data.
+
+  
+## 7) EECS 281 Project 1: Rescue the Countess
+
+### Description:
+This project is designed to build a path-finding solution for a maze-like castle layout. The objective is to help Marco rescue Countess Cherry using efficient algorithms in C++. Key concepts include breadth-first and depth-first search, managing multi-room navigation, and ensuring program efficiency with restricted memory usage.
+
+### Technologies Used:
+- **C++ STL**: For data management with `deque`, `vector`, `string`, etc.
+- **Pathfinding Algorithms**: Breadth-first and depth-first searches adapted for stack and queue routing schemes.
+- **Optimization Tools**: Valgrind for memory leak detection and runtime optimization.
+
+### Key Contributions:
+- Developed an efficient map parsing system supporting two distinct input modes.
+- Implemented stack and queue-based routing schemes to explore two search methodologies.
+- Designed warp pipe functionality for multi-room transitions, ensuring Marco’s path is accurately tracked.
+- Integrated error-handling for invalid inputs and comprehensive testing through customized test cases.
+
