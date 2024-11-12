@@ -1,5 +1,5 @@
 
-# Project 2: Fakebook JDBC
+# EECS 484 Project 2: Fakebook JDBC
 
 Link to project:[https://eecs484db.github.io/f24/p2-fakebook-jdbc](https://eecs484db.github.io/f24/p2-fakebook-jdbc)
 
