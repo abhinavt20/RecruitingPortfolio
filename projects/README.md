@@ -143,7 +143,7 @@ This two-part project explores simulation and data structures. Part A, The Walki
 
 
 
-## 8) EECS 281 Project 3: SillyQL - Project Overview
+## 8) EECS 281 Project 3: SillyQL 
 
 ### Description
 SillyQL is a simplified SQL-like database that allows for basic data manipulation and querying. The project is structured
